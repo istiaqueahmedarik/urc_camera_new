@@ -18,7 +18,7 @@ total_bytes_received = 0
 bandwidth_mbps = 0.0
 
 PORT_RANGE = range(1234, 1246)  # 1234-1245 inclusive
-INACTIVITY_TIMEOUT = 2  # seconds
+INACTIVITY_TIMEOUT = 5  # seconds
 
 active_threads = {}
 last_active = {}
